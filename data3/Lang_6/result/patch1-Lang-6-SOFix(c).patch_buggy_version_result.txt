@@ -1,75 +1,84 @@
 JUnit version 4.13.2
-16:31:21.514 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest
-16:31:21.520 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest'.
-16:31:21.731 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest_scaffolding
-16:31:21.731 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest_scaffolding'.
-16:31:21.735 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest_scaffolding
-16:31:21.735 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest
-16:31:22.266 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
-16:31:22.267 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
-16:31:22.267 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
-16:31:22.267 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
-16:31:22.267 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
-16:31:22.267 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
-16:31:22.321 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.NumericEntityEscaper
-16:31:22.321 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.NumericEntityEscaper'.
-16:31:22.334 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/NumericEntityEscaper
-16:31:22.549 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/NumericEntityEscaper
-16:31:22.551 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.CodePointTranslator
-16:31:22.551 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.CodePointTranslator'.
-16:31:22.552 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/CodePointTranslator
-16:31:22.553 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/CodePointTranslator
-16:31:22.553 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.CharSequenceTranslator
-16:31:22.553 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.CharSequenceTranslator'.
-16:31:22.554 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/CharSequenceTranslator
-16:31:22.561 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/CharSequenceTranslator
-16:31:22.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.CharSequenceTranslator
-16:31:22.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.CodePointTranslator
-16:31:22.562 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.NumericEntityEscaper
-16:31:22.563 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.AggregateTranslator
-16:31:22.563 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.AggregateTranslator'.
-16:31:22.565 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/AggregateTranslator
-16:31:22.565 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/AggregateTranslator
-16:31:22.566 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.AggregateTranslator
-16:31:22.567 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.LookupTranslator
-16:31:22.567 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.LookupTranslator'.
-16:31:22.568 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/LookupTranslator
-16:31:22.569 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/LookupTranslator
-16:31:22.570 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.LookupTranslator
-16:31:22.570 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.ArrayUtils
-16:31:22.570 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.ArrayUtils'.
-16:31:22.574 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/ArrayUtils
-16:31:22.600 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/lang3/ArrayUtils
-16:31:22.603 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.lang3, -899722583
-16:31:22.604 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.ArrayUtils
-16:31:22.615 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.UnicodeEscaper
-16:31:22.615 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.UnicodeEscaper'.
-16:31:22.616 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/UnicodeEscaper
-16:31:22.618 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/UnicodeEscaper
-16:31:22.618 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.UnicodeEscaper
-16:31:22.620 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.UnicodeUnescaper
-16:31:22.621 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.UnicodeUnescaper'.
-16:31:22.622 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/UnicodeUnescaper
-16:31:22.624 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/UnicodeUnescaper
-16:31:22.625 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.UnicodeUnescaper
-.16:31:22.649 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.NumericEntityUnescaper
-16:31:22.649 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.NumericEntityUnescaper'.
-16:31:22.650 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/NumericEntityUnescaper
-16:31:22.654 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/NumericEntityUnescaper
-16:31:22.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.NumericEntityUnescaper
-16:31:22.655 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION
-16:31:22.656 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION'.
-16:31:22.656 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/NumericEntityUnescaper$OPTION
-16:31:22.657 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/lang3/text/translate/NumericEntityUnescaper$OPTION
-16:31:22.657 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION
-16:31:22.659 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.OctalUnescaper
-16:31:22.660 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.OctalUnescaper'.
-16:31:22.663 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/OctalUnescaper
-16:31:22.663 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/lang3/text/translate/OctalUnescaper
-16:31:22.663 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.OctalUnescaper
-.....................................................................................................................................................................16:31:23.365 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread
-..............
-Time: 1.553
+00:22:39.178 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest
+00:22:39.185 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest'.
+00:22:39.393 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest_scaffolding
+00:22:39.393 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest_scaffolding'.
+00:22:39.399 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest_scaffolding
+00:22:39.399 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest
+00:22:39.401 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.CharSequenceTranslator
+00:22:39.401 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.CharSequenceTranslator'.
+00:22:39.420 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/CharSequenceTranslator
+00:22:39.695 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/CharSequenceTranslator
+00:22:39.696 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.CharSequenceTranslator
+00:22:39.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest$1
+00:22:39.697 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest$1'.
+00:22:39.698 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest$1
+00:22:40.226 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+00:22:40.226 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+00:22:40.226 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+00:22:40.226 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+00:22:40.226 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
+00:22:40.226 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+00:22:40.252 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.NumericEntityEscaper
+00:22:40.252 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.NumericEntityEscaper'.
+00:22:40.253 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/NumericEntityEscaper
+00:22:40.254 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/NumericEntityEscaper
+00:22:40.255 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.CodePointTranslator
+00:22:40.255 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.CodePointTranslator'.
+00:22:40.256 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/CodePointTranslator
+00:22:40.256 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/CodePointTranslator
+00:22:40.256 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.CodePointTranslator
+00:22:40.257 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.NumericEntityEscaper
+00:22:40.258 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.AggregateTranslator
+00:22:40.258 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.AggregateTranslator'.
+00:22:40.259 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/AggregateTranslator
+00:22:40.259 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/AggregateTranslator
+00:22:40.260 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.AggregateTranslator
+00:22:40.261 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.LookupTranslator
+00:22:40.261 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.LookupTranslator'.
+00:22:40.262 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/LookupTranslator
+00:22:40.264 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/LookupTranslator
+00:22:40.264 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.LookupTranslator
+00:22:40.265 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.ArrayUtils
+00:22:40.265 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.ArrayUtils'.
+00:22:40.269 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/ArrayUtils
+00:22:40.293 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/lang3/ArrayUtils
+00:22:40.295 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.lang3, -899722583
+00:22:40.296 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.ArrayUtils
+00:22:40.307 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.UnicodeEscaper
+00:22:40.307 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.UnicodeEscaper'.
+00:22:40.309 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/UnicodeEscaper
+00:22:40.310 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/UnicodeEscaper
+00:22:40.310 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.UnicodeEscaper
+00:22:40.312 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.UnicodeUnescaper
+00:22:40.312 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.UnicodeUnescaper'.
+00:22:40.313 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/UnicodeUnescaper
+00:22:40.316 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/UnicodeUnescaper
+00:22:40.316 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.UnicodeUnescaper
+.00:22:40.342 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.NumericEntityUnescaper
+00:22:40.342 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.NumericEntityUnescaper'.
+00:22:40.343 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/NumericEntityUnescaper
+00:22:40.346 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang3/text/translate/NumericEntityUnescaper
+00:22:40.347 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.NumericEntityUnescaper
+00:22:40.347 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION
+00:22:40.347 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION'.
+00:22:40.348 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/NumericEntityUnescaper$OPTION
+00:22:40.350 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/lang3/text/translate/NumericEntityUnescaper$OPTION
+00:22:40.350 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION
+00:22:40.352 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang3.text.translate.OctalUnescaper
+00:22:40.352 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang3.text.translate.OctalUnescaper'.
+00:22:40.352 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang3/text/translate/OctalUnescaper
+00:22:40.353 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/lang3/text/translate/OctalUnescaper
+00:22:40.353 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang3.text.translate.OctalUnescaper
+....................................................................................................E................................................................................
+Time: 1.307
+There was 1 failure:
+1) test_translate(org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest)
+org.junit.ComparisonFailure: expected:<Hello [emoji][ ]World!> but was:<Hello [emoji][]World!>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.apache.commons.lang3.text.translate.CharSequenceTranslator_ESTest.test_translate(CharSequenceTranslator_ESTest.java:2156)
 
-OK (180 tests)
+FAILURES!!!
+Tests run: 181,  Failures: 1
 

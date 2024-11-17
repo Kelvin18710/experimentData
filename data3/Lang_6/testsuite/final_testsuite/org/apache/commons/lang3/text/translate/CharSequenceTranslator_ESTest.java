@@ -30,6 +30,7 @@ import org.apache.commons.lang3.text.translate.UnicodeUnescaper;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
+import java.io.IOException;
 
 @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
 public class CharSequenceTranslator_ESTest extends CharSequenceTranslator_ESTest_scaffolding {@Test(timeout = 4000)
@@ -2121,4 +2122,36 @@ public class CharSequenceTranslator_ESTest extends CharSequenceTranslator_ESTest
       numericEntityEscaper0.translate((CharSequence) string0, (Writer) stringWriter0);
       assertEquals("511", stringWriter0.toString());
   }
+  @Test(timeout = 4000)
+    public void test_translate() throws Throwable {
+        // 创建一个自定义翻译器，假设它将表情符号替换为文本
+        CharSequenceTranslator customTranslator = new CharSequenceTranslator() {
+            @Override
+            public int translate(CharSequence input, int index, Writer out) throws IOException {
+                int codePoint = Character.codePointAt(input, index);
+                // 假设将表情符号替换为 "[emoji]"
+                if (codePoint == 0x1F60A) {  // 😊的Unicode code point
+                    out.write("[emoji]");
+                    return Character.charCount(codePoint); // 处理表情符号的代理对
+                }
+                out.write(input.charAt(index));  // 默认处理普通字符
+                return 1;
+            }
+        };
+
+        // 测试输入：包含表情符号和普通字符
+        CharSequence input = "Hello 😊 World!";
+        StringWriter writer = new StringWriter(); // 用于捕获翻译结果
+
+        // 调用 translate 方法
+        customTranslator.translate(input, writer);
+
+        // 获取翻译结果
+        String result = writer.toString();
+
+        // 验证输出结果是否符合预期
+        assertNotNull(result); // 确保结果不为空
+        assertFalse(result.isEmpty()); // 确保结果不是空字符串
+        assertEquals("Hello [emoji] World!", result); // 验证翻译结果是否正确
+    }
 }
