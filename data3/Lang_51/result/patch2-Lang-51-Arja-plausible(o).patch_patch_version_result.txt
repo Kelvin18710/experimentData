@@ -1,0 +1,43 @@
+JUnit version 4.13.2
+23:38:32.059 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang.BooleanUtils_ESTest
+23:38:32.066 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang.BooleanUtils_ESTest'.
+23:38:32.338 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang.BooleanUtils_ESTest_scaffolding
+23:38:32.338 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang.BooleanUtils_ESTest_scaffolding'.
+23:38:32.342 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang.BooleanUtils_ESTest_scaffolding
+23:38:32.342 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang.BooleanUtils_ESTest
+23:38:32.971 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+23:38:32.971 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+23:38:32.971 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+23:38:32.971 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+23:38:32.971 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
+23:38:32.972 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+23:38:33.037 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang.BooleanUtils
+23:38:33.037 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang.BooleanUtils'.
+23:38:33.048 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang/BooleanUtils
+23:38:33.240 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/lang/BooleanUtils
+23:38:33.242 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang.BooleanUtils
+23:38:33.244 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang.math.NumberUtils
+23:38:33.244 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang.math.NumberUtils'.
+23:38:33.245 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang/math/NumberUtils
+23:38:33.267 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/lang/math/NumberUtils
+23:38:33.269 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.lang.math, 262170540
+23:38:33.270 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang.math.NumberUtils
+23:38:33.272 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.lang.ArrayUtils
+23:38:33.272 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.lang.ArrayUtils'.
+23:38:33.273 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/lang/ArrayUtils
+23:38:33.287 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/lang/ArrayUtils
+23:38:33.288 [main] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.lang.ArrayUtils
+..................................................................................................................................................................................................................................................................................................................23:38:34.301 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread
+..................................................................................................................................................E............................................................23:38:34.786 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Time: 3.655
+There was 1 failure:
+1) test_0578(org.apache.commons.lang.BooleanUtils_ESTest)
+java.lang.StringIndexOutOfBoundsException: String index out of range: 3
+	at java.lang.String.charAt(String.java:658)
+	at org.apache.commons.lang.BooleanUtils.toBoolean(BooleanUtils.java:686)
+	at org.apache.commons.lang.BooleanUtils_ESTest.test_0578(BooleanUtils_ESTest.java:4758)
+
+FAILURES!!!
+Tests run: 1088,  Failures: 1
+
